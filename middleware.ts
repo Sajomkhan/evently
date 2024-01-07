@@ -5,8 +5,6 @@ export default authMiddleware({
         '/',
         '/events/:id',
         '/api/webhook/clerk',
-        '/api/webhooks(.*)',
-        '/api/webhook(.*)',
         '/api/webhook/stripe',
         '/api/uploadthing',
     ],
